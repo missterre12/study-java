@@ -75,6 +75,50 @@ Java Break and Continue
       System.out.println(i);
     }
 
+Java Arrays 
+-
+Arrays are used to store multiple values in a single variable, instead of declaring separate variables for each value.
+
+    String[] fruits = {"Melon", "Durian", "Grape", "Banana", "Apple"};
+    System.out.println(fruits[0]);
+    // Outputs Melon
+
+* Array Length: To find out how many elements an array has. 
+
+        String[] fruits = {"Melon", "Durian", "Grape", "Banana", "Apple"};
+        System.out.println(fruis.length);
+        // Outputs 5
+
+* Loop Through An Array: use the for `loop`, and use the `length` property to specify how many times the loop should run.
+
+        String[] fruits = {"Melon", "Durian", "Grape", "Banana", "Apple"};
+        for (int i = 0; i < fruits.length; i++) {
+        System.out.println(fruits[i]);
+        }
+        // Output Melon, Durian, Grape, Banana, Apple
+
+* Loop Through an Array with For-Each: used exclusively to loop through elements in arrays.
+
+        String[] fruits = {"Melon", "Durian", "Grape", "Banana", "Apple"};
+        for (String i : fruits) {
+        System.out.println(i);
+        }
+        // Output Melon, Durian, Grape, Banana, Apple
+
+*  Multidimensional Arrays: is an array of arrays.
+        
+        // 2 Dimensional Array
+        int[][] numbers = { {1, 2, 3, 4}, {5, 6, 7} };
+
+OOP (Object Oriented Programming)
+- 
+* OOP is faster and easier to execute
+* OOP provides a clear structure for the programs
+* OOP helps to keep the Java code DRY "Don't Repeat Yourself", and makes the code easier to maintain, modify and debug
+* OOP makes it possible to create full reusable applications with less code and shorter development time
+* Classes and objects are the two main aspects of object-oriented programming. A class is a template for objects, and an object is an instance of a class.
+
+![](https://github.com/missterre12/study-java/tree/main/assets/class.png)
 
     
 
